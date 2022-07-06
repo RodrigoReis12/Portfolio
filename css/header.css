@@ -9,16 +9,22 @@
     align-items: center;
 }
 
+.header img {
+    width: 70px;
+}
+
 .header-menu {
     display: flex;
-    gap: 45px;
+    gap: 35px;
 }
 
 .header-menu a {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
     text-decoration: none;
     color: var(--black);
+    padding: 5px 10px;
 }
 
 .header-menu a:hover {
@@ -37,15 +43,19 @@
     }
 
     .header-menu a {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 378px) {
 
     .header {
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 10px;
+    }
+
+    .header-menu a {
+        font-size: 0.8rem;
     }
 }
