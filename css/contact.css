@@ -1,0 +1,17 @@
+.contact-bg {
+    background: var(--color-4);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-bg h1 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 5.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
