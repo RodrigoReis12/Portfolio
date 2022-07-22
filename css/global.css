@@ -4,6 +4,7 @@
     --color-3: #C7EBFF;
     --color-4: #B39268;
     --black: #000;
+    scroll-behavior: smooth;
 }
 
 .container {

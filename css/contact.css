@@ -1,17 +1,20 @@
 .contact-bg {
     background: var(--color-4);
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.contact-bg h1 {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 5.3rem;
-    text-align: center;
-    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
